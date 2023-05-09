@@ -9,63 +9,82 @@
     <title>productos</title>
 </head>
 <body>
+    <header class="site-header sticky-top py-1">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+          <a class="py-2" href="#" aria-label="Product">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+          </a>
+          <a class="py-2 d-none d-md-inline-block" href="../index.html">Inicio</a>
+          <a class="py-2 d-none d-md-inline-block" href="productos.html">Product</a>
+          <a class="py-2 d-none d-md-inline-block" href="pedidos.html">pedidos</a>
+          <a class="py-2 d-none d-md-inline-block" href="contactos.html">contacto</a>
+          <a class="py-2 d-none d-md-inline-block" href="login.html">entrar</a>
+          <a class="py-2 d-none d-md-inline-block" href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a class="py-2 d-none d-md-inline-block" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </nav>
+      </header>
     <div class="container">
-        <h2 class="text-center">Contac Form</h2>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8 col-lg-6 pb-5">
-    
-    
-                        <!--Form with header-->
-    
-                        <form action="mail.php" method="post">
-                            <div class="card border-primary rounded-0">
-                                <div class="card-header p-0">
-                                    <div class="bg-info text-white text-center py-2">
-                                        <h3><i class="fa fa-envelope"></i> Contactanos</h3>
-                                        <p class="m-0">Con gusto te ayudaremos</p>
-                                    </div>
-                                </div>
-                                <div class="card-body p-3">
-    
-                                    <!--Body-->
-                                    <div class="form-group">
-                                        <div class="input-group mb-2">
-                                            <div class="input-group-prepend">
-                                                <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
-                                            </div>
-                                            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="input-group mb-2">
-                                            <div class="input-group-prepend">
-                                                <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
-                                            </div>
-                                            <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
-                                        </div>
-                                    </div>
-    
-                                    <div class="form-group">
-                                        <div class="input-group mb-2">
-                                            <div class="input-group-prepend">
-                                                <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
-                                            </div>
-                                            <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
-                                        </div>
-                                    </div>
-    
-                                    <div class="text-center">
-                                        <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
-                                    </div>
-                                </div>
-    
-                            </div>
-                        </form>
-                        <!--Form with header-->
-    
-    
-                    </div>
+        <div class="row d-flex p-4 justify-content-around">
+            <h3>promociones</h3>
+            <!--Producto 1-->
+            <div class="card" style="width: 18rem;">
+                <img src="../img/productos/pastel1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">flores rosado</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">$800</a>
+                </div>
+              </div>
+                          <!--Producto 2-->
+            <div class="card" style="width: 18rem;">
+                <img src="../img/productos/pastel2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">pastel con fruta</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">$600</a>
+                </div>
+              </div>
+                                        <!--Producto 2-->
+            <div class="card" style="width: 18rem;">
+                <img src="../img/productos/pastel3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">azul marino</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">$500</a>
+                </div>
+              </div>
         </div>
+        <div class="row d-flex p-4 justify-content-around">
+            <h3>Diseño especiales</h3>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../img/productos/pastel4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">pastel floriados</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">$3000</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="../img/productos/imagen5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">pastel multicolor</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">$1000</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="../img/productos/imagen6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">`pastel morado</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">$2000</a>
+                </div>
+              </div>  
+        </div>
+    </div>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/all.min.js"></script>
 </body>
